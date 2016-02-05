@@ -1,19 +1,14 @@
 var moment = require("moment");
 
-module.exports = function officeHours(config, now) {
+module.exports = function officeHours(rules, now) {
   var i, j;
 
-
-  if (!config) { 
-    throw new Error("config is required for officehours");
-  }
-  
-  if (!config.rules || config.rules.length === 0) { 
+  if (!rules || rules.length === 0) { 
     throw new Error("config is required for officehours");
   }
 
-  for (i = 0; i < config.rules.length; i++) {
-    var rule = config.rules[i];
+  for (i = 0; i < rules.length; i++) {
+    var rule = rules[i];
 
     if (!rule.days || rule.days.length === 0) {
       throw new Error("Invalid day range in rule %j", rule);

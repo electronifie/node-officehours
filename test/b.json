@@ -1,9 +1,8 @@
-{ "rules": [
-    { 
-      "days": [ 0,6 ],
-      "startTime": { "h": 7, "m": 0 }, 
-      "endTime": { "h": 17, "m": 0 }
-    }
-  ]
-}  
+[
+  { 
+    "days": [ 0,6 ],
+    "startTime": { "h": 7, "m": 0 }, 
+    "endTime": { "h": 17, "m": 0 }
+  }
+]
 
