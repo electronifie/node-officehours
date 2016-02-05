@@ -1,0 +1,22 @@
+{
+  "name": "node-officehours",
+  "version": "0.0.1",
+  "description": "Determine if current time is during office hours",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:electronifie/node-officehours.git"
+  },
+  "author": "opensource@electronifie.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "moment": "^2.11.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.1"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  }
+}
