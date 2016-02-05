@@ -1,6 +1,6 @@
 {
   "name": "node-officehours",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Determine if current time is during office hours",
   "main": "index.js",
   "repository": {
